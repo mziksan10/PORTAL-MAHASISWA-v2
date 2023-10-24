@@ -95,26 +95,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('admin/pendaftar_buku_wisuda'); ?>" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Pendaftar Buku Wisuda
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
             <a href="#" class="nav-link btn-danger">
               <i class="nav-icon fas fa-lock"></i>
               <p>
                 Informasi & Layanan
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link btn-danger">
-            <i class="nav-icon fas fa-lock"></i>
-              <p>
-                Info Pengumuman
               </p>
             </a>
           </li>

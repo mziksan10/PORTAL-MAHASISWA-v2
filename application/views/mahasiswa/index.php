@@ -22,12 +22,12 @@
     <section class="content">
       <div class="container-fluid">
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Halo! <strong><?= ucwords(strtolower($nama)); ?></strong> Selamat datang kembali.
+        Halo <strong><?= ucwords(strtolower($nama)); ?></strong> Selamat datang kembali!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col">
         <h1 style="text-align: center;">PORTAL MAHASISWA</h1>
         </div>
@@ -46,7 +46,6 @@
       <br>
       <br>
       </div>
-      <p class="card-text float-right"><small class="text-muted">*sistem ini belum sempurna. Mohon dimaafkan jika ada kekurangan.</small></p>
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->

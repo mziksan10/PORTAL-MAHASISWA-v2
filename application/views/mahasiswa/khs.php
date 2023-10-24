@@ -46,8 +46,6 @@
                         <th>Kode Mata Kuliah</th>
                         <th>Nama Mata Kuliah</th>
                         <th>SKS</th>
-                        <th>UTS</th>
-                        <th>UAS</th>
                         <th>Nilai Mutu</th>
                         <th>Nilai Angka</th>
                       </tr>
@@ -67,8 +65,6 @@
                         <td><?= $row->KodeMatkul; ?></td>
                         <td><?= $row->namamatkul; ?></td>
                         <td><?php if(is_numeric($row->SKS)){ echo $row->SKS; }?></td>
-                        <td><?= round($row->nilaiuts); ?></td>
-                        <td><?= round($row->nilaiuas); ?></td>
                         <td><?= $row->nilaiakhir; ?></td>
                         <td><?= $row->asss; ?></td>
                       </tr>
@@ -85,9 +81,9 @@
 									endforeach; ?>
                         <tr style="text-align: right;">
                         <th colspan="3">TOTAL SKS</th>
-                        <td style="text-align: center;"><?= $tsks; ?></td>
-                        <th colspan="3">TOTAL IPS</th>
-                        <td style="text-align: center;"><?= $ip; ?></td>
+                        <td class="font-weight-bold" style="text-align: center;"><?= $tsks; ?></td>
+                        <th>TOTAL IPS</th>
+                        <td class="font-weight-bold" style="text-align: center;"><?= $ip; ?></td>
                         </tr>
                     </table>
                 </div>

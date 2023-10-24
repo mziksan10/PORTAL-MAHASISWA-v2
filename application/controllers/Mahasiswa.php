@@ -118,7 +118,7 @@ class Mahasiswa extends CI_Controller
         );
 
         $data['nilai_ksk'] = $this->M_mahasiswa->get_ksk($npm)->result();        
-        $data['title'] = "Klinik Spesialisasi Kompetensi (KSK)";
+        $data['title'] = "Nilai Klinik Spesialisasi Kompetensi";
         $this->load->view('mahasiswa/header.php', $data);
         $this->load->view('mahasiswa/ksk.php', $data);
         $this->load->view('mahasiswa/footer.php'); 

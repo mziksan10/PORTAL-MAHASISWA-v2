@@ -114,7 +114,7 @@
             <a href="<?= base_url('mahasiswa/ksk'); ?>" class="nav-link">
               <i class="nav-icon fas fa-atom"></i>
               <p>
-                KSK
+                Nilai KSK
               </p>
             </a>
           </li>

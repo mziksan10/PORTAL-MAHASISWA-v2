@@ -27,7 +27,7 @@
             <div class="card-body">
                 <table class="table table-striped">
                     <tr>
-                    <th class="col-md-2">NPM</th>
+                    <th>NPM</th>
                     <td>: <?= $npm; ?></td>
                     </tr>
                     <tr>
@@ -78,21 +78,17 @@
                     <td>: <?= ucwords(strtolower($nama)); ?></td>
                     </tr>
                     <tr>
-                    <th>Tempat Lahir</th>
-                    <td>: <?= ucwords(strtolower($tempat_lahir)); ?></td>
-                    </tr>
-                    <tr>
-                    <th>Tanggal Lahir</th>
-                    <td>: <?= $tanggal_lahir; ?></td>
+                    <th>Tempat, Tanggal Lahir</th>
+                    <td>: <?= ucwords(strtolower($tempat_lahir)) . ', ' . date('d F Y', strtotime($tanggal_lahir)); ?></td>
                     </tr>
                     <tr>
                     <th>Kelamin</th>
                     <td>: 
                     <?php
                       if (trim($kelamin) == 'P'){
-                          echo "Perempuan";
+                          echo "(P) Perempuan";
                       }elseif(trim($kelamin) == 'L'){
-                        echo "Laki-laki";
+                        echo "(L) Laki-laki";
                       }
                     ?>
                     </td>

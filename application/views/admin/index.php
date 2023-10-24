@@ -22,12 +22,12 @@
     <section class="content">
       <div class="container-fluid">
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Halo! <strong><?= ucwords(strtolower($username)); ?></strong> Selamat datang kembali.
+        Halo <strong><?= ucwords(strtolower($username)); ?></strong> Selamat datang kembali!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col">
         <h1 style="text-align: center;">PORTAL MAHASISWA</h1>
         </div>
@@ -45,20 +45,6 @@
       <div class="row">
       <br>
       <br>
-      </div>
-      <div class="row">
-        <div class="col-6">
-        <p class="card-text"><small class="text-muted">*sistem ini belum sempurna. Mohon dimaafkan jika ada kekurangan.</small></p>
-        </div>
-        <div class="col-4">
-          <div class="badge bg-danger float-right">
-            <i class="nav-icon fas fa-bullhorn ml-1 mr-2"></i>
-            <span>Info</span>
-          </div>
-        </div>
-        <div class="col-2">
-            <marquee style="font-style: italic;">Halo hari ini adalah <b>Tanggal <?= date('D, d M Y')?></b></marquee>
-        </div>
       </div>
       </div><!-- /.container-fluid -->
     </section>
