@@ -6,7 +6,7 @@
   </div>
 <div class="login-box">
   <div class="login-logo">
-    <img src="<?= base_url('assets/'); ?>dist/img/portal_mahasiswa.png" alt="logo portal" style="width: 100%;">
+    <img src="<?= base_url('assets/'); ?>dist/img/portal_mahasiswa.png" alt="logo portal" style="width: 80%;">
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -38,22 +38,20 @@
           </div>
         </div>
         <?= form_error('password', '<div class="text-danger small ml-3">','</div>'); ?>
-        <div class="row mt-2">
-          <div class="col-8">
-          <p class="mb-0">Belum punya akun?
-            <a href="<?= base_url('auth/register'); ?>" class="text-center">Klik daftar</a>
-          </p>
-          </div>
+        <div class="row">
           <!-- /.col -->
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Masuk</button>
-          </div>
           <div class="col-12">
-          <p class=" mt-2 mb-0" align="center">
-            <a href="<?= base_url('auth/lupa_password'); ?>" class="text-center">Lupa Password?</a>
-          </p>   
+            <button type="submit" class="btn btn-primary btn-block mt-2" width="100%">Login</button>
           </div>
           <!-- /.col -->
+        </div>
+        <div class="row">
+        <div class="col-12">
+        <p class="mt-3" align="center">
+          <a href="<?= base_url('auth/lupa_password'); ?>" class="text-center">Tidak ingat kata sandi?</a><br>
+          Belum Punya Akun? Klik <a href="<?= base_url('auth/register'); ?>" class="text-center">Daftar Sekarang</a>
+        </p>
+        </div>
         </div>
       </form>
     </div>

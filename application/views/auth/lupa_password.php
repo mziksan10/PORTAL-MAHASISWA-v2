@@ -6,7 +6,7 @@
   </div>
 <div class="login-box">
   <div class="login-logo">
-    <img src="<?= base_url('assets/'); ?>dist/img/portal_mahasiswa.png" alt="logo portal" style="width: 100%;">
+    <img src="<?= base_url('assets/'); ?>dist/img/portal_mahasiswa.png" alt="logo portal" style="width: 80%;">
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -50,15 +50,13 @@
           </div>
         </div>
         <?= form_error('password2', '<div class="text-danger small ml-3">','</div>'); ?>
-        <div class="row mt-2">
-          <div class="col-8">
-          <p class="mb-0">
-            <a class="align-middle btn btn-primary" href="<?= base_url('auth'); ?>" class="text-center"><i class="fas fa-arrow-left mr-2"></i> Kembali</a>
-          </p>
+        <div class="row mt-3">
+          <div class="col-2">
+            <a class="align-middle btn btn-secondary mb-0" href="<?= base_url('auth'); ?>" class="text-center"><i class="fas fa-arrow-left mr-2"></i></a>
           </div>
           <!-- /.col -->
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Kirim</button>
+          <div class="col-10">
+            <button type="submit" class="btn btn-primary btn-block" width="100%">Reset</button>
           </div>
           <!-- /.col -->
         </div>
